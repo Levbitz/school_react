@@ -1,0 +1,32 @@
+.btn_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn_wrap {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+.custom__btn {
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: grey;
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .custom__btnw {
+    background-color: lightblue;
+    width: 60%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,12 @@
+.contact__container {
+  background-image: url(../images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.contact__btn {
+  width: 100%;
+  background: lightblue;
+  margin-bottom: 600px;
+}

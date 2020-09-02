@@ -1,0 +1,28 @@
+.About__wrapper {
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.About__headingwrap {
+  align-items: center;
+  margin: auto;
+}
+
+.About__heading {
+  margin: 40px;
+  padding: 10px;
+  color: #719cfe;
+  text-transform: capitalize;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.About__image {
+  width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  .About__image {
+    display: none;
+  }
+}

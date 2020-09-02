@@ -1,0 +1,40 @@
+.my__Navavigation {
+  z-index: 900px !important;
+}
+
+.my__logo {
+  margin-right: 50px;
+  display: initial;
+  float: left;
+  color: #719cfe;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.6);
+}
+
+.Nav__link {
+  z-index: 999px;
+  color: white !important;
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none !important;
+}
+
+.nav__links {
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .phone {
+    display: none;
+  }
+}
+
+.link_wrapper {
+  margin-left: 100px;
+}
+
+.my-linkCol {
+  align-items: center;
+  margin-left: 30px;
+}

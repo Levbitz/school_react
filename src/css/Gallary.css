@@ -1,0 +1,13 @@
+.gallary__wrapper {
+  margin: 10px;
+}
+
+.gallary__img {
+  width: 350px;
+}
+
+@media only screen and (max-width: 600px) {
+  .gallary__img {
+    width: 100%;
+  }
+}

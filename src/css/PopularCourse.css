@@ -1,0 +1,53 @@
+.courses__container {
+  background: white;
+}
+
+.course__cardOne {
+  background-image: url(../images/p1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 320px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.course__cardTwo {
+  background-image: url(../images/p2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 320px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.course__cardThree {
+  background-image: url(../images/p3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 320px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.course__cardFour {
+  background-image: url(../images/p4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 320px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.popular__headingwrap {
+  align-items: center;
+  margin: auto;
+}
+
+.popular__cardheading {
+  color: white;
+
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Tahoma, sans-serif;
+}
+
+.popular_heading {
+  color: coral;
+}
