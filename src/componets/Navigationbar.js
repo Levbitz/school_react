@@ -35,7 +35,7 @@ const Navigationbar = (props) => {
 
           <NavItem className="link_wrapper">
             <Link className="Nav__link" to="/about-us">
-              About
+              About us
             </Link>
           </NavItem>
 
