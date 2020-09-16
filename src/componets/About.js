@@ -8,7 +8,7 @@ import "../css/About.css";
 
 function About() {
   return (
-    <div>
+    <div className="myAbt">
       <Container>
         <Row>
           <div className="About__headingwrap">

@@ -19,14 +19,20 @@ const Navigationbar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar className="my__Navavigation" color="danger" light expand="md">
+    <Navbar
+      className="my__Navavigation"
+      color="danger"
+      light
+      expand="md"
+      sticky={"top"}
+    >
       <NavbarBrand className="my__logo" href="/">
         My school
       </NavbarBrand>
 
       <NavbarToggler onClick={toggle} />
       <Collapse className="myCollapse" isOpen={isOpen} navbar>
-        <Nav className="mr-auto nav__links my-linkCol" navbar>
+        <Nav ml-auto={true} className="ml-auto nav__links my-linkCol " navbar>
           <NavItem className="link_wrapper">
             <Link className="Nav__link" to="/">
               Home
